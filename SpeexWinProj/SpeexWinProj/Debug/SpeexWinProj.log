@@ -1,0 +1,141 @@
+﻿  stdafx.cpp
+  buffer.c
+  fftwrap.c
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\fftwrap.c(103): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\fftwrap.c(109): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  filterbank.c
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\math_approx.h(57): warning C4244: “return”: 从“double”转换到“spx_word16_t”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\math_approx.h(323): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\filterbank.c(63): warning C4244: “=”: 从“double”转换到“spx_word32_t”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\filterbank.c(83): warning C4244: “=”: 从“double”转换到“spx_word32_t”，可能丢失数据
+  jitter.c
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\jitter.c(201): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\jitter.c(234): warning C4244: “=”: 从“float”转换到“spx_int32_t”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\jitter.c(445): warning C4018: “<”: 有符号/无符号不匹配
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\jitter.c(692): warning C4018: “<”: 有符号/无符号不匹配
+  kiss_fft.c
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\math_approx.h(57): warning C4244: “return”: 从“double”转换到“spx_word16_t”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\math_approx.h(323): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\kiss_fft.c(197): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\kiss_fft.c(198): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  kiss_fftr.c
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\math_approx.h(57): warning C4244: “return”: 从“double”转换到“spx_word16_t”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\math_approx.h(323): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\kiss_fftr.c(129): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\kiss_fftr.c(130): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\kiss_fftr.c(131): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\kiss_fftr.c(132): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  mdf.c
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\math_approx.h(57): warning C4244: “return”: 从“double”转换到“spx_word16_t”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\math_approx.h(323): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\mdf.c(200): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\mdf.c(368): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\mdf.c(479): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\mdf.c(489): warning C4305: “=”: 从“double”到“spx_word16_t”截断
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\mdf.c(505): warning C4305: “=”: 从“double”到“spx_word16_t”截断
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\mdf.c(507): warning C4305: “=”: 从“double”到“spx_word16_t”截断
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\mdf.c(509): warning C4305: “=”: 从“double”到“spx_word16_t”截断
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\mdf.c(511): warning C4305: “=”: 从“double”到“spx_word16_t”截断
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\mdf.c(488): warning C4244: “初始化”: 从“double”转换到“spx_word16_t”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\mdf.c(718): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\mdf.c(984): warning C4244: “=”: 从“double”转换到“spx_int16_t”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\mdf.c(1076): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\mdf.c(1121): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\mdf.c(1149): warning C4244: “=”: 从“double”转换到“spx_word32_t”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\mdf.c(1151): warning C4244: “=”: 从“double”转换到“spx_word32_t”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\mdf.c(1167): warning C4244: “=”: 从“double”转换到“spx_word32_t”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\mdf.c(1186): warning C4244: “=”: 从“int”转换到“spx_word16_t”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\mdf.c(1225): warning C4244: “=”: 从“spx_int32_t”转换到“spx_word32_t”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\mdf.c(1248): warning C4305: “=”: 从“double”到“spx_word16_t”截断
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\mdf.c(1250): warning C4305: “=”: 从“double”到“spx_word16_t”截断
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\mdf.c(1252): warning C4305: “=”: 从“double”到“spx_word16_t”截断
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\mdf.c(1276): warning C4244: “=”: 从“spx_word32_t”转换到“spx_int32_t”，可能丢失数据
+  preprocess.c
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\math_approx.h(57): warning C4244: “return”: 从“double”转换到“spx_word16_t”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\math_approx.h(323): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\preprocess.c(277): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\preprocess.c(280): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\preprocess.c(361): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\preprocess.c(366): warning C4244: “return”: 从“double”转换到“spx_word32_t”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\preprocess.c(368): warning C4244: “return”: 从“double”转换到“spx_word32_t”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\preprocess.c(382): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\preprocess.c(383): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\preprocess.c(387): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\preprocess.c(442): warning C4244: “函数”: 从“int”转换到“spx_word32_t”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\preprocess.c(506): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\preprocess.c(512): warning C4305: “=”: 从“double”到“float”截断
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\preprocess.c(515): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\preprocess.c(516): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\preprocess.c(504): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\preprocess.c(577): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\preprocess.c(583): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\preprocess.c(584): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\preprocess.c(591): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\preprocess.c(740): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\preprocess.c(825): warning C4244: “函数”: 从“spx_word16_t”转换到“int”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\preprocess.c(864): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\preprocess.c(914): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\preprocess.c(926): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\preprocess.c(967): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\preprocess.c(983): warning C4244: “=”: 从“spx_word16_t”转换到“spx_int16_t”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\preprocess.c(985): warning C4244: “=”: 从“spx_word16_t”转换到“spx_int16_t”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\preprocess.c(1077): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\preprocess.c(1080): warning C4244: “=”: 从“double”转换到“spx_int32_t”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\preprocess.c(1083): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\preprocess.c(1086): warning C4244: “=”: 从“double”转换到“spx_int32_t”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\preprocess.c(1089): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\preprocess.c(1092): warning C4244: “=”: 从“double”转换到“spx_int32_t”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\preprocess.c(1135): warning C4244: “=”: 从“spx_word16_t”转换到“spx_int32_t”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\preprocess.c(1143): warning C4244: “=”: 从“spx_word16_t”转换到“spx_int32_t”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\preprocess.c(1172): warning C4244: “=”: 从“double”转换到“spx_int32_t”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\preprocess.c(1175): warning C4244: “=”: 从“double”转换到“spx_int32_t”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\preprocess.c(1191): warning C4244: “=”: 从“spx_word16_t”转换到“spx_int32_t”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\preprocess.c(1195): warning C4244: “=”: 从“spx_int32_t”转换到“float”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\preprocess.c(1202): warning C4244: “=”: 从“float”转换到“spx_int32_t”，可能丢失数据
+  resample.c
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\resample_sse.h(45): warning C4018: “<”: 有符号/无符号不匹配
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\resample_sse.h(62): warning C4018: “<”: 有符号/无符号不匹配
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\resample_sse.h(84): warning C4018: “<”: 有符号/无符号不匹配
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\resample_sse.h(110): warning C4018: “<”: 有符号/无符号不匹配
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\resample.c(299): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\resample.c(299): warning C4244: “return”: 从“double”转换到“spx_word16_t”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\resample.c(329): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\resample.c(424): warning C4244: “=”: 从“double”转换到“spx_word16_t”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\resample.c(544): warning C4244: “=”: 从“double”转换到“spx_word32_t”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\resample.c(663): warning C4018: “<”: 有符号/无符号不匹配
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\resample.c(927): warning C4018: “<”: 有符号/无符号不匹配
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\resample.c(930): warning C4018: “<”: 有符号/无符号不匹配
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\resample.c(983): warning C4018: “<”: 有符号/无符号不匹配
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\resample.c(990): warning C4018: “<”: 有符号/无符号不匹配
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\resample.c(1000): warning C4018: “<”: 有符号/无符号不匹配
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\resample.c(1004): warning C4244: “=”: 从“double”转换到“spx_int16_t”，可能丢失数据
+  scal.c
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\scal.c(109): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\scal.c(151): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\scal.c(180): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\scal.c(182): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\scal.c(204): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\scal.c(206): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\scal.c(208): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\scal.c(268): warning C4244: “=”: 从“float”转换到“spx_int16_t”，可能丢失数据
+  smallft.c
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\smallft.c(101): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\smallft.c(102): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\smallft.c(285): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\smallft.c(286): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\smallft.c(855): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\libspeexdsp\smallft.c(856): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  正在生成代码...
+  SpeexWinProj.cpp
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\speexwinproj\speexwinproj\speexwinproj.cpp(95): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(213): note: 参见“fopen”的声明
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\speexwinproj\speexwinproj\speexwinproj.cpp(96): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(213): note: 参见“fopen”的声明
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\speexwinproj\speexwinproj\speexwinproj.cpp(139): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(213): note: 参见“fopen”的声明
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\speexwinproj\speexwinproj\speexwinproj.cpp(140): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(213): note: 参见“fopen”的声明
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\speexwinproj\speexwinproj\speexwinproj.cpp(141): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h(213): note: 参见“fopen”的声明
+d:\05_cpp\04_audioqualitydetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\speexwinproj\speexwinproj\speexwinproj.cpp(195): warning C4244: “=”: 从“double”转换到“short”，可能丢失数据
+  SpeexWinProj.vcxproj -> D:\05_cpp\04_AudioQualityDetect\10_speex\speexdsp-1.2rc3\speexdsp-1.2rc3\SpeexWinProj\Debug\SpeexWinProj.exe

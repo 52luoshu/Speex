@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BEDBCBDF-267E-4423-B187-47EC8BC1903F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>SpeexWinProj</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;HAVE_CONFIG_H;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../include;../SpeexWinProj;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\speex\speexdsp_types.h" />
+    <ClInclude Include="..\..\include\speex\speex_buffer.h" />
+    <ClInclude Include="..\..\include\speex\speex_echo.h" />
+    <ClInclude Include="..\..\include\speex\speex_jitter.h" />
+    <ClInclude Include="..\..\include\speex\speex_preprocess.h" />
+    <ClInclude Include="..\..\include\speex\speex_resampler.h" />
+    <ClInclude Include="..\..\libspeexdsp\arch.h" />
+    <ClInclude Include="..\..\libspeexdsp\bfin.h" />
+    <ClInclude Include="..\..\libspeexdsp\fftwrap.h" />
+    <ClInclude Include="..\..\libspeexdsp\filterbank.h" />
+    <ClInclude Include="..\..\libspeexdsp\fixed_arm4.h" />
+    <ClInclude Include="..\..\libspeexdsp\fixed_arm5e.h" />
+    <ClInclude Include="..\..\libspeexdsp\fixed_bfin.h" />
+    <ClInclude Include="..\..\libspeexdsp\fixed_debug.h" />
+    <ClInclude Include="..\..\libspeexdsp\fixed_generic.h" />
+    <ClInclude Include="..\..\libspeexdsp\kiss_fft.h" />
+    <ClInclude Include="..\..\libspeexdsp\kiss_fftr.h" />
+    <ClInclude Include="..\..\libspeexdsp\math_approx.h" />
+    <ClInclude Include="..\..\libspeexdsp\misc_bfin.h" />
+    <ClInclude Include="..\..\libspeexdsp\os_support.h" />
+    <ClInclude Include="..\..\libspeexdsp\pseudofloat.h" />
+    <ClInclude Include="..\..\libspeexdsp\resample_neon.h" />
+    <ClInclude Include="..\..\libspeexdsp\resample_sse.h" />
+    <ClInclude Include="..\..\libspeexdsp\smallft.h" />
+    <ClInclude Include="..\..\libspeexdsp\stack_alloc.h" />
+    <ClInclude Include="..\..\libspeexdsp\vorbis_psy.h" />
+    <ClInclude Include="..\..\libspeexdsp\_kiss_fft_guts.h" />
+    <ClInclude Include="config.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\libspeexdsp\buffer.c" />
+    <ClCompile Include="..\..\libspeexdsp\fftwrap.c" />
+    <ClCompile Include="..\..\libspeexdsp\filterbank.c" />
+    <ClCompile Include="..\..\libspeexdsp\jitter.c" />
+    <ClCompile Include="..\..\libspeexdsp\kiss_fft.c" />
+    <ClCompile Include="..\..\libspeexdsp\kiss_fftr.c" />
+    <ClCompile Include="..\..\libspeexdsp\mdf.c" />
+    <ClCompile Include="..\..\libspeexdsp\preprocess.c" />
+    <ClCompile Include="..\..\libspeexdsp\resample.c" />
+    <ClCompile Include="..\..\libspeexdsp\scal.c" />
+    <ClCompile Include="..\..\libspeexdsp\smallft.c" />
+    <ClCompile Include="SpeexWinProj.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
